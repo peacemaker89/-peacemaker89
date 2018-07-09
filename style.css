@@ -1,0 +1,20 @@
+<style>
+p {
+    color: red;
+}
+p.par1 {
+    font-size: 150:%;
+}
+
+li {
+    color: blue;
+    text-transform: uppercase;
+}
+
+#Клиенты_и_серверы {
+    background-color: gray;
+}
+p.par1 strong {
+
+}
+</style>
