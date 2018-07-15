@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Блочная верстка в HTML5</title>
+    <style>
+        div{
+            margin: 10px;
+            font-size: 20px;
+            height: 80px;
+        }
+        #content{
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">Шапка сайта
+<style>
+    #wrapper{
+        font-family: "Arial";
+    }
+</style></div>
+<div id="sidebar"><h2>Регистрация</h2><br>
+    <label for="input1">Email</label>
+    <input type="text" id="input1"placeholder="Email"><br><br>
+    <label for="input1">Пароль</label>
+    <input type="text" id="input1"placeholder="Пароль"><br><br>
+    <input type="checkbox" id="checkbox1"checked>
+    <label for="checkbox1">Показать пароль</label><br><br>
+    <label for="input1">Имя</label>
+    <input type="text" id="input1"placeholder="Имя"><br><br>
+    <label for="input1">Фамилия</label>
+    <input type="text" id="input1"placeholder="Фамилия"><br><br>
+</div>
+<div id="content"><p><b>Что даёт регистрация</b></p>
+    <p></p>
+</div>
+<style>
+    #wrapper {
+        margin: 10px auto;
+    }
+    #sidebar {
+    float: left;
+    width: 300px;
+    font-family: "Arial";
+    font-size: 10pt;
+    clear: both;
+    text-align: left;
+    line-height: 5px;
+}
+#content{
+height: 200px;
+margin-left: 340px; /* 300px (ширина сайдбара) + 10px + 10px + 10px + 10px (4 отступа) */
+font-family: "Arial";
+    floar:left;
+    }
+    p{
+        font-align: left;
+    }
+</style>
+
+</body>
+</html>
+
+
