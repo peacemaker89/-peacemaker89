@@ -7,7 +7,139 @@
 <body>
 
 
-<form action=""
+<form action=""method="GET">
+    <input type="text"placeholder="Плейсхолдер"><br><br>
+    <input type="text"value="Value"><br><br>
+    <input type="text"value="disabled"disabled><br><br>
+    <input type="password"value="123456"><br><br>
+    <textarea>Введите текст</textarea><br><br>
+    <input type="submit"value="Кнопка через тег input"><br><br>
+    <button>Кнопка через тег button</button><br><br>
+    <input type="text"placeholder="Плейсхолдер">
+    <label for-input1>Эта метка для инпута - нажмите на меня - и инпут получит фокус!</label><br>
+    <button>Отправить на сервер</button><br><br>
+</form>
+<form>
+    <input type="checkbox">
+    <li1><label for-checkbox>Это метка для чекбокса: нажмите на меня - чекбокс сменит галочку!</label></li1><br><br>
+    <input type="checkbox"checked>
+        <li1><label for-checkbox>Я отмечен по умолчанию!</label></li1><br><br>
+</form>
+<form>
+    <input type="checkbox"disabled>
+    <li1><label for-checkbox>Я disabled!</label></li1><br><br>
+</form>
+<form>
+    <fieldset>
+        <p>
+            Это группа радиокнопок - только одна из них может быть отмечена!
+        </p>
+        <input type="radio"name="block1">
+        <li1><label for-radio>Это метка для радио</label>
+            <style>
+                li1{
+                    width: 300px;
+                    height: 1000px;
+                    border: 1px solid red;
+                }
+        </style>
+        </li1><br><br>
+        <input type="radio"name="block1">
+        <li1><label for-radio>Это метка для радио</label>
+        </li1><br><br>
+    </fieldset><br>
+</form>
+<form>
+<input type="submit"value="Отправить на сервер"><br><br>
+<br><br>
+</form>
+<form>
+    <select>
+        <option>Минск</option>
+        <option>Москва</option>
+        <option>Киев</option>
+        <option selected>Нью Йорк</option>
+    </select>
+    <select multiple name="city[]">
+        <option>Минск</option>
+        <option>Москва</option>
+        <option>Киев</option>
+        <option selected>Нью Йорк</option>
+        <option>Варшава</option>
+        <option>Рига</option>
+        <option>Рим</option>
+    </select>
+    <input type="submit"value="Отправить на сервер"><br><br>
+    <br><br>
+</form>
+
+<h1 class="test"><b>Что нужно знать, чтобы делать сайты</b></h1>
+<style>
+    h1.test{
+        color: red;
+        text-align: center;
+    }
+</style>
+<ol>
+    <li><div style="font-size: 15pt;"> <b>HTML</b></div></li>
+    <li><div style="color: blue";><i>CSS</i></div></li>
+    <li>PHP</li>
+    <li>SQL</li>
+    <li>JavaScript</li>
+    <li>jQuery</li>
+    <li>Flash</li>
+    <li>SEO</li>
+</ol>
+<style>
+    li{
+        color: red;
+    }
+</style>
+<h2 class="test">PHP и JavaScript</h2>
+<style>
+    h2.test{
+        color: green;
+    }
+</style>
+<p>
+    <span style="font-family: Arial;"> Языки программирования <span style="color:red";><b>PHP</b></span> и
+     <span style="color:red";><b>JavaScript</b></span> позволяют сделать сайт динамичным, то есть реагирующим на действия
+     пользователя. Например, можно сделать красивую выпадающую менюшку или слайдер</span>
+</p>
+<style>
+    p{
+        font-size: 10pt;
+    }
+</style>
+<h2 class="test"><b>Виды скриптов</b></h2>
+<p>
+    <span style="font-family: Arial;">Для этого пишутся скрипты (англ. script - «сценарий») - программы, позволяющие реагировать на действия пользователя.
+        Скрипты бывают двух видов:</span>
+</p>
+<ul>
+    <li class="test"><i>те, которые выполняются на сервере, а результат их выполнения приходит в браузер к пользователю уже в готовом
+        виде. Это скрипты, написанные на языке <span style="color:red"><b>PHP</b></span>
+        На нем пишутся <span style="color:red"><b>CMS-ки</b></span> – системы управления контентом.</i></li>
+    <li class="test"><i>те, которые выполняются прямо в браузере пользователя. Это скрипты, написанные на языке <span style="color:red"><b>JavaScript</b></span>. Они чаще
+        всего используются для, того чтобы сделать страницу более удобной и красивой.</i></li>
+</ul>
+<style>
+    li.test{
+        color: brown;
+    }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>
